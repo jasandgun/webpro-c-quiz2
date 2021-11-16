@@ -16,7 +16,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddControllersWithViews();
 // Additional services
 builder.Services.AddMvc();
-builder.Services.AddSingleton<ITodoItemService, FakeTodoItemService>();
+builder.Services.AddScoped<ITodoItemService, TodoItemService>();
 
 var app = builder.Build();
 
