@@ -28,7 +28,9 @@ public class TodoItemService : ITodoItemService
     {
         newItem.Id = Guid.NewGuid();
         newItem.IsDone = false;
-        newItem.DueAt = DateTimeOffset.Now.AddDays(3);
+        if (newItem.DueAt==null) {
+            newItem.DueAt = DateTimeOffset.Now.AddDays(3);            
+        }
 
         _context.Items.Add(newItem);
 

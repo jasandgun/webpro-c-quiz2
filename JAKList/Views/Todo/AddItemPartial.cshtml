@@ -1,7 +1,11 @@
 @model TodoItem
 
 <form asp-action="AddItem" method="POST">
+  @* Title *@
   <label asp-for="Title">Add a new item:</label>
   <input asp-for="Title">
-  <button type="submit">Add</button>
+  @* Date *@
+  <label asp-for="DueAt">Due:</label>
+  <input asp-for="DueAt" type="datetime-local" min='@DateTime.Now.ToString("yyyy-MM-ddThh:mm")'>
+  <button type="submit">add to list</button>
 </form>
