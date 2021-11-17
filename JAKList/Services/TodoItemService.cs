@@ -37,4 +37,18 @@ public class TodoItemService : ITodoItemService
         var saveResult = await _context.SaveChangesAsync();
         return saveResult == 1;
     }
+    public async Task<bool> MarkDoneAsync(Guid id)
+    {
+        var item = await _context.Items.
+            Where(x=>x.Id==id).
+            SingleOrDefaultAsync();
+        
+        if(item == null)
+            return false;
+
+        item.IsDone = true;
+
+        var saveResult = await _context.SaveChangesAsync();
+        return saveResult == 1;
+    }
 }
