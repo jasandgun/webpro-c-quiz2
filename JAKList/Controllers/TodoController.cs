@@ -5,9 +5,10 @@ using System.Threading.Tasks;
 using JAKList.Services;
 using JAKList.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace JAKList.Controllers;
-
+[Authorize]
 public class TodoController : Controller
 {
     private readonly ITodoItemService _todoItemService;
