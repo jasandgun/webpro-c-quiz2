@@ -41,11 +41,11 @@ public class ManageUsersController : Controller
 
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> DeleteConfirmed(string id)
+    public async Task<IActionResult> DeleteConfirmed(string UserId)
     {
-        var SelectedUser = await _context.Users.FindAsync(id);
+        var SelectedUser = await _context.Users.FindAsync(UserId);
         if (SelectedUser == null) {
-            return BadRequest("No such user exists." + id);
+            return BadRequest("No such user exists. The user ID you've requested: " + UserId);
         } else {
             _context.Users.Remove(SelectedUser);
             await _context.SaveChangesAsync();

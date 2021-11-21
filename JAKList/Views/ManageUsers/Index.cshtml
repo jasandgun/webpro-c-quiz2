@@ -43,7 +43,7 @@
             <td>@user.Email</td>
             <td>
                 <form asp-action="Delete" method="POST">
-                    <input type="hidden" asp-for="@user.Id" />
+                    <input type="hidden" asp-for="UserId" value="@user.Id" />
                     <input type="submit" value="Delete" />
                 </form>
             </td>
