@@ -15,13 +15,14 @@
 
     if (isAdmin)
     {
-        <ul class="nav navbar-nav navbar-right">
-            <li>
-                <a asp-controller="ManageUsers" 
-                   asp-action="Index">
-                   Manage Users
-                </a>
-            </li>
-        </ul>
+        @* <ul class="nav navbar-nav navbar-right"> *@
+        <li>
+            <a asp-controller="ManageUsers" 
+                asp-action="Index"
+                class="nav-link text-dark" >
+                Manage Users
+            </a>
+        </li>
+        @* </ul> *@
     }
 }
