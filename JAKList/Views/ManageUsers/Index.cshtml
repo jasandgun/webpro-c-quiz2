@@ -44,7 +44,7 @@
             <td>
                 <form asp-action="Delete" method="POST">
                     <input type="hidden" asp-for="UserId" value="@user.Id" />
-                    <input type="submit" value="Delete" />
+                    <input type="submit" value="Delete" onClick='javascript:return confirm("Are you sure to delete @user.UserName?");' />
                 </form>
             </td>
         </tr>
