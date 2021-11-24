@@ -26,13 +26,14 @@ Kevin Davi Samuel | 05111940000157
 
 ---
 ### Manage Users
+<img src="img/Manage User.png" width="450">
 
 ---
 ### Delete Users
 * Confirmation Page
-
+<img src="img/Confirmation.png" width="450">
 * Result after deleting an user
-
+<img src="img/After Delete.png" width="450">
 
 ---
 ### to-do list
@@ -42,9 +43,12 @@ Kevin Davi Samuel | 05111940000157
 ---
 ### Manage Account
 * Profile Page
+<img src="img/Profile Page.png" width="450">
 
 * Email Page
+<img src="img/Email Page.png" width="450">
 
 * Update Password
+<img src="img/Update Password.png" width="450">
 
 
