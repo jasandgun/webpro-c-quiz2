@@ -15,20 +15,37 @@ Kevin Davi Samuel | 05111940000157
 ---
 ### intro page, register page, and login page.
 
-Intro Page
+* Intro Page
 <img src="img/main.png" width="450">
 
-Register Page
+* Register Page
 <img src="img/register.png" width="450">
 
-Login Page
+* Login Page
 <img src="img/login.png" width="450">
 
 ---
-## Manage Users
+### Manage Users
+
+---
+### Delete Users
+* Confirmation Page
+
+* Result after deleting an user
 
 
 ---
 ### to-do list
 
 <img src="img/list.gif" width="450">
+
+---
+### Manage Account
+* Profile Page
+
+* Email Page
+
+
+* Update Password
+
+
