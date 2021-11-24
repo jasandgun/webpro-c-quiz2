@@ -32,6 +32,7 @@ Kevin Davi Samuel | 05111940000157
 ### Delete Users
 * Confirmation Page
 <img src="img/Confirmation.png" width="450">
+
 * Result after deleting an user
 <img src="img/After Delete.png" width="450">
 
