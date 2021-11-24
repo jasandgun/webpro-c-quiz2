@@ -11,14 +11,17 @@ Jason Andrew Gunawan | 05111940000085
 Kevin Davi Samuel | 05111940000157
 
 
-## first look
+## First look
 ---
 ### intro page, register page, and login page.
 
+Intro Page
 <img src="img/main.png" width="450">
 
+Register Page
 <img src="img/register.png" width="450">
 
+Login Page
 <img src="img/login.png" width="450">
 
 ---
