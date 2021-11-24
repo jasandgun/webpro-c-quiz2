@@ -24,9 +24,6 @@ Kevin Davi Samuel | 05111940000157
 * Login Page
 <img src="img/login.png" width="450">
 
-* Logout Page
-<img src="img/Logout Page.png" width="450">
-
 ---
 ### Manage Users
 <img src="img/Manage User.png" width="450">
