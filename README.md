@@ -13,7 +13,7 @@ Kevin Davi Samuel | 05111940000157
 
 ## First look
 ---
-### intro page, register page, and login page.
+### intro page, register page, login page and logout page.
 
 * Intro Page
 <img src="img/main.png" width="450">
@@ -23,6 +23,8 @@ Kevin Davi Samuel | 05111940000157
 
 * Login Page
 <img src="img/login.png" width="450">
+
+* Logout Page
 
 ---
 ### Manage Users
@@ -37,7 +39,7 @@ Kevin Davi Samuel | 05111940000157
 <img src="img/After Delete.png" width="450">
 
 ---
-### to-do list
+### To-do list
 
 <img src="img/list.gif" width="450">
 
